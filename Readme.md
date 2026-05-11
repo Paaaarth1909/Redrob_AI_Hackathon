@@ -146,9 +146,13 @@ A higher score indicates a stronger match between the resume and the JD.
 ```bash
 resume-matching-engine/
 │
-├── resume_matcher.py
-├── README.md
-└── dataset.py
+├── main.py
+├── cosine_match.py
+├── jd_vectors.py
+├── process_resumes.py
+├── sanity_checks.py
+├── skill_normalizer.py
+└── tfidf_resumes.py
 ```
 
 ---
